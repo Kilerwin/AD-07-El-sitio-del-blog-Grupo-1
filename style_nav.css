@@ -1,6 +1,11 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: rgb(39, 96, 188);
 }
 
 .container {
@@ -18,7 +23,7 @@ nav {
   left: 0;
   justify-content: space-between;
   align-items: center;
-  background-color: crimson;
+  background-color: rgb(3, 65, 165);
   padding: 5px 10px;
   z-index: 1000;
 }
@@ -42,18 +47,18 @@ nav section figure {
 }
 
 .icon-user:hover {
-  fill: rgb(94, 94, 94);
+  fill: rgb(192, 190, 190);
 }
 
 .link {
   text-decoration: none;
-  color: black;
+  color: #fff;
   margin: 0 10px;
 }
 
 .link:hover{
   text-decoration: none;
-  color: rgb(94, 94, 94);
+  color: rgb(192, 190, 190);
 }
 
 main {

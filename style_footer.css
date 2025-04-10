@@ -9,7 +9,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: crimson;
+  background-color: rgb(3, 65, 165);
   padding: 5px 10px;
 }
 
