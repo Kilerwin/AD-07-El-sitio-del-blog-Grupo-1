@@ -1,6 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: grid;
   min-height: 100dvh;
   grid-template-rows: 
     auto 1fr auto;
 } 
+
+nav {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: crimson;
+  padding: 5px 10px;
+  z-index: 1000;
+}
+
+nav section figure {
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+}
+
+.icon-user {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.icon-user:hover {
+  fill: rgb(94, 94, 94);
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+
+main {
+  margin-top: 30px;
+}
